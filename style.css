@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+}
+
+.navbar button {
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+  background: linear-gradient(45deg, #f39c12, #f1c40f);
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 16px;
+  transition: transform 0.2s;
+}
+
+.navbar button:hover {
+  transform: scale(1.1);
+}
